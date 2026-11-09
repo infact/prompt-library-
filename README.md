@@ -1,5 +1,39 @@
 # prompt-library-
 
+> A searchable, category-organized library of high-quality AI prompts.
+> **New here?** → see `SEARCH.md` to find any prompt fast, and `FIND_AI_PROMPTS.md` for how prompts are added.
+
+## How to find a prompt
+- **By category:** open `prompts/` (one folder per category, see `prompts/README.md`).
+- **By tag / model / difficulty / full-text:** copy a grep recipe from `SEARCH.md`.
+- **Add your own:** copy `PROMPT_TEMPLATE.md` into the right `prompts/<Category>/` folder,
+  fill the YAML frontmatter, and add a row under its category below.
+
+## Categories (index)
+| Category | Folder |
+| --- | --- |
+| Image Generation | `prompts/Image Generation/` |
+| Writing & Copy | `prompts/Writing & Copy/` |
+| Coding & Dev | `prompts/Coding & Dev/` |
+| Productivity | `prompts/Productivity/` |
+| Business & Strategy | `prompts/Business & Strategy/` |
+| Marketing & Social | `prompts/Marketing & Social/` |
+| Education & Learning | `prompts/Education & Learning/` |
+| Data & Analysis | `prompts/Data & Analysis/` |
+| Roleplay & Character | `prompts/Roleplay & Character/` |
+| General Purpose | `prompts/General Purpose/` |
+
+## Image Generation
+| Prompt | What it does | @author | Model | Tags | File |
+| --- | --- | --- | --- | --- | --- |
+| _none yet — add rows here as prompts are collected_ | | | | | |
+
+---
+
+## Legacy photo-enhancement prompts
+_The following prompts predate the folder structure. They are kept verbatim.
+New prompts should be added under `prompts/` with frontmatter instead._
+
 1. MAKE IT LOOK LIKE A PROFESSIONAL PHOTOGRAPH
 Create a photorealistic image of [subject] as if captured by a professional photographer using a full-frame DSLR.
 Use realistic lighting, accurate proportions, natural textures, fine details, authentic shadows, and balanced exposure. Preserve realistic imperfections and avoid artificial skin smoothing, exaggerated sharpness, or the typical AI-generated appearance."
