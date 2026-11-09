@@ -184,3 +184,4 @@ Steps every run:
 3. Fail-fast fallback: if slack_create_canvas returns ANY error, do NOT retry. Fall back to posting the full brief as a regular Slack message with mrkdwn formatting.
 
 Always also return the full markdown brief in the Code session output.
+Note: sourced from https://mattpaige68.substack.com/p/how-i-turned-claude-code-into-my
