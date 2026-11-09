@@ -110,3 +110,22 @@ grep -rl "@sunaiuse" prompts/
 
 `prompts/Image Generation/` still has no prompts — no genuinely reusable image
 generation prompt was found on x.com this pass; nothing was fabricated to fill it.
+
+---
+
+## 9. Recently added from x.com (2026-11-09, pass 2)
+1 prompt, sourced `@Gustafssonkotte`. The rest of the "prompt" space on x.com
+this pass was engagement-bait / commercial (X-flagged), so nothing else cleared
+the quality bar — nothing was fabricated.
+
+```bash
+grep -rl "@Gustafssonkotte" prompts/
+```
+
+### 9a. New tags
+| Tag | Recipe |
+| --- | --- |
+| `meta` | `grep -rl "tags:.*meta" prompts/` |
+| `framework` | `grep -rl "tags:.*framework" prompts/` |
+| `self-check` | `grep -rl "tags:.*self-check" prompts/` |
+| `claude` | `grep -rl "tags:.*claude" prompts/` |

@@ -86,6 +86,7 @@
 | Prompt | What it does | @author | Model | Tags | File |
 | --- | --- | --- | --- | --- | --- |
 | Legal Document Translator | Plain-English breakdown of a legal document before you sign it | @AnatoliKopadze | claude | legal, contract, document, understanding | `prompts/General Purpose/legal-document-translator.md` |
+| The 7-Move Prompt Framework | A reusable "prompt within a prompt" — 7 moves (outcome, self-check, examples, audience+shape, raw material, plan first, learn from corrections) | @Gustafssonkotte | any | claude, prompting, meta, framework, self-check, planning, craft | `prompts/General Purpose/seven-move-prompt-framework.md` |
 
 ---
 
